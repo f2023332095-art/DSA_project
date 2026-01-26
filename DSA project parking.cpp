@@ -36,7 +36,7 @@ public:
     void release() { status = SlotStatus::FREE; occupiedStartTick = -1; }
 };
 
-// -------------------- ParkingRequest --------------------
+
 class ParkingRequest {
     int id;
     string vehicleId;
